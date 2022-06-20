@@ -239,3 +239,7 @@ a {
     width: 88%;
   }
 }
+
+button{
+  box-shadow: none;
+}
