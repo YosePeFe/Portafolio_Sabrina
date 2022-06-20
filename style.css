@@ -89,6 +89,16 @@ a {
   color: black;
   letter-spacing: .5vw;
 }
+
+.contactArea{
+  height: fit-content;
+  margin: 0 auto;
+  background-color: white;
+  width: 50%;
+  color: black;
+  padding: 0.7rem;
+}
+
 .contactArea p{
   padding: 1rem;
 }
@@ -143,7 +153,7 @@ a {
 
 @media (max-width: 767px){
   .Abilities{
-    margin: 50% 0 0 15vw;
+    margin: 50% 0 0 5vw;
     width: 50%;
   }
 
@@ -183,5 +193,49 @@ a {
 
   .customDisplayXSM{
     display: block;
+  }
+}
+
+@media (max-width: 565px){
+  .imgForCollageInitializer img{
+    width: 100vw;
+  }
+
+  .customDisplayXSM div{
+    margin-left: 5vw!important;
+  }
+
+  .imageLinkers{
+    height: 150vh!important;
+  }
+  .evenImageXS{
+    margin-top: 28vh!important;
+  }
+
+  .oddImageXS{
+    margin-top: 56vh!important;
+  }
+
+  .evenImageXS2{
+    margin-top: 86vh!important;
+  }
+}
+
+@media (max-width: 455px){
+  .imgFrameIzquierdo{
+    width: 91vw;
+    height: 60vh;
+  }
+
+  .Abilities{
+    margin: 118% 0 0 2vw;
+  }
+
+  .informationDiv{
+    height: 155vh;
+  }
+
+  .contactArea{
+    width: 88%;
   }
 }
